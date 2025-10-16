@@ -4,9 +4,10 @@ Thank you for your interest in contributing to the AI Agent Schema project! 🎉
 
 ## Getting Started
 
-1. **Fork the repository** and clone your fork:
+1. **Fork the repository**
+
    ```bash
-   git clone https://github.com/yourusername/ai-agent-schema.git
+   git clone https://github.com/shaunganley/ai-agent-schema.git
    cd ai-agent-schema
    ```
 
@@ -191,8 +192,8 @@ All checks should pass!
 
 ## Questions or Issues?
 
-- Open an [issue](https://github.com/yourusername/ai-agent-schema/issues) for bugs
-- Start a [discussion](https://github.com/yourusername/ai-agent-schema/discussions) for questions
+- Open an [issue](https://github.com/shaunganley/ai-agent-schema/issues) for bugs
+- Start a [discussion](https://github.com/shaunganley/ai-agent-schema/discussions) for questions
 - Join our community chat (coming soon!)
 
 ## License

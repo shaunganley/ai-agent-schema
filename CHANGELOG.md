@@ -207,6 +207,6 @@ All adapter functions and types now exported from main index:
 - Custom tool definitions
 - Custom workflow node types
 
-[0.4.0]: https://github.com/yourusername/ai-agent-schema/releases/tag/v0.4.0
-[0.3.0]: https://github.com/yourusername/ai-agent-schema/releases/tag/v0.3.0
-[0.1.0]: https://github.com/yourusername/ai-agent-schema/releases/tag/v0.1.0
+[0.4.0]: https://github.com/shaunganley/ai-agent-schema/releases/tag/v0.4.0
+[0.3.0]: https://github.com/shaunganley/ai-agent-schema/releases/tag/v0.3.0
+[0.1.0]: https://github.com/shaunganley/ai-agent-schema/releases/tag/v0.1.0

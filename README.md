@@ -405,8 +405,8 @@ MIT © Shaun Ganley
 
 ## 🔗 Links
 
-- [Documentation](https://github.com/yourusername/ai-agent-schema)
-- [Issue Tracker](https://github.com/yourusername/ai-agent-schema/issues)
+- [Documentation](https://github.com/shaunganley/ai-agent-schema)
+- [Issue Tracker](https://github.com/shaunganley/ai-agent-schema/issues)
 - [NPM Package](https://www.npmjs.com/package/@ai-agent/schema)
 
 ---

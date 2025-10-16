@@ -50,12 +50,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/ai-agent-schema.git"
+    "url": "https://github.com/shaunganley/ai-agent-schema.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/ai-agent-schema/issues"
+    "url": "https://github.com/shaunganley/ai-agent-schema/issues"
   },
-  "homepage": "https://github.com/yourusername/ai-agent-schema#readme",
+  "homepage": "https://github.com/shaunganley/ai-agent-schema#readme",
   "devDependencies": {
     "@types/node": "^20.10.0",
     "@typescript-eslint/eslint-plugin": "^6.13.0",
