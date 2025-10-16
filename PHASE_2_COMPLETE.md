@@ -149,7 +149,7 @@ import {
   mapAgentToN8nNode,
   mapAgentToLangChain,
   mapAgentToCrewAgent 
-} from '@ai-agent/schema';
+} from '@ai-agent-schema/schema';
 
 // Define once
 const agent = {

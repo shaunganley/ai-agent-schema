@@ -39,7 +39,7 @@ Create an **open, extensible JSON-based standard** and SDK for defining AI agent
 | Goal                                 | Success Metric                                                       |
 | ------------------------------------ | -------------------------------------------------------------------- |
 | Define a universal agent JSON schema | JSON Schema and Zod schema published                                 |
-| Provide an importable SDK            | Published to npm as `@ai-agent/schema`                               |
+| Provide an importable SDK            | Published to npm as `@ai-agent-schema/schema`                               |
 | Enable interoperability              | Working adapters for at least 2 frameworks (n8n, LangChain)          |
 | Support runtime validation           | Zod + validator functions                                            |
 | Allow auto-generated UIs             | JSON Schema export used by a form generator                          |
@@ -79,7 +79,7 @@ Adapters to translate the standardized JSON into native representations:
 
 ### 5.5 Developer SDK
 
-* Importable TypeScript library (`@ai-agent/schema`)
+* Importable TypeScript library (`@ai-agent-schema/schema`)
 * Exports types, schemas, and utility functions
 * Supports ES Modules and CommonJS
 
@@ -146,7 +146,7 @@ A developer creates a JSON file:
 Then imports the SDK:
 
 ```ts
-import { validateAgentConfig, mapAgentToN8nNode } from "@ai-agent/schema";
+import { validateAgentConfig, mapAgentToN8nNode } from "@ai-agent-schema/schema";
 
 const agent = validateAgentConfig(agentJson);
 const n8nNode = mapAgentToN8nNode(agent);

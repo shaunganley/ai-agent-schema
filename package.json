@@ -1,5 +1,5 @@
 {
-  "name": "@ai-agent/schema",
+  "name": "@ai-agent-schema/schema",
   "version": "0.4.0",
   "description": "Standardized JSON schema and TypeScript SDK for defining AI agents and workflows with framework adapters",
   "type": "module",

@@ -103,7 +103,7 @@ import {
   detectWorkflowCycles,
   getWorkflowTopologicalOrder,
   type WorkflowConfig
-} from '@ai-agent/schema';
+} from '@ai-agent-schema/schema';
 
 // Define a workflow
 const workflow: WorkflowConfig = {

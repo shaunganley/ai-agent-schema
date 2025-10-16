@@ -2,7 +2,7 @@
 
 A standardized JSON schema and TypeScript SDK for defining AI agents and their configurations, enabling interoperability between AI frameworks.
 
-[![npm version](https://badge.fury.io/js/@ai-agent%2Fschema.svg)](https://www.npmjs.com/package/@ai-agent/schema)
+[![npm version](https://badge.fury.io/js/@ai-agent-schema%2Fschema.svg)](https://www.npmjs.com/package/@ai-agent-schema/schema)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🎯 Overview
@@ -23,15 +23,15 @@ AI Agent Schema provides a **universal standard** for describing AI agents, thei
 ## 📦 Installation
 
 ```bash
-npm install @ai-agent/schema
+npm install @ai-agent-schema/schema
 ```
 
 ```bash
-yarn add @ai-agent/schema
+yarn add @ai-agent-schema/schema
 ```
 
 ```bash
-pnpm add @ai-agent/schema
+pnpm add @ai-agent-schema/schema
 ```
 
 ## 🚀 Quick Start
@@ -39,7 +39,7 @@ pnpm add @ai-agent/schema
 ### Basic Usage
 
 ```typescript
-import { validateAgentConfig, type AgentConfig } from '@ai-agent/schema';
+import { validateAgentConfig, type AgentConfig } from '@ai-agent-schema/schema';
 
 // Define your agent configuration
 const agentConfig = {
@@ -67,7 +67,7 @@ if (result.success) {
 ### Advanced Configuration
 
 ```typescript
-import { validateAgentConfig, type AgentConfig } from '@ai-agent/schema';
+import { validateAgentConfig, type AgentConfig } from '@ai-agent-schema/schema';
 
 const advancedConfig: AgentConfig = {
   id: 'research-agent',
@@ -110,7 +110,7 @@ const result = validateAgentConfig(advancedConfig);
 ### Generate JSON Schema
 
 ```typescript
-import { generateAgentJsonSchema } from '@ai-agent/schema';
+import { generateAgentJsonSchema } from '@ai-agent-schema/schema';
 
 // Generate JSON Schema for form builders
 const jsonSchema = generateAgentJsonSchema();
@@ -211,7 +211,7 @@ AI Agent Schema includes built-in adapters to convert your agent configurations 
 Convert agents and workflows to [n8n](https://n8n.io/) format:
 
 ```typescript
-import { mapAgentToN8nNode, mapWorkflowToN8n } from '@ai-agent/schema';
+import { mapAgentToN8nNode, mapWorkflowToN8n } from '@ai-agent-schema/schema';
 
 // Convert agent to n8n node
 const n8nNode = mapAgentToN8nNode(agentConfig, {
@@ -238,7 +238,7 @@ console.log(JSON.stringify(n8nWorkflow, null, 2));
 Convert agents and workflows to [LangChain](https://www.langchain.com/) format:
 
 ```typescript
-import { mapAgentToLangChain, mapWorkflowToLangGraph } from '@ai-agent/schema';
+import { mapAgentToLangChain, mapWorkflowToLangGraph } from '@ai-agent-schema/schema';
 
 // Convert agent to LangChain format
 const lcAgent = mapAgentToLangChain(agentConfig, {
@@ -264,7 +264,7 @@ const graph = new StateGraph({ channels: lgWorkflow.state.schema });
 Convert agents and workflows to [CrewAI](https://www.crewai.com/) format:
 
 ```typescript
-import { mapAgentToCrewAgent, mapWorkflowToCrew } from '@ai-agent/schema';
+import { mapAgentToCrewAgent, mapWorkflowToCrew } from '@ai-agent-schema/schema';
 
 // Convert agent to CrewAI format
 const crewAgent = mapAgentToCrewAgent(agentConfig, {
@@ -305,7 +305,7 @@ my_crew = Crew(agents=agents, tasks=tasks, process=crew['process'])
 Safely validates an agent configuration.
 
 ```typescript
-import { validateAgentConfig } from '@ai-agent/schema';
+import { validateAgentConfig } from '@ai-agent-schema/schema';
 
 const result = validateAgentConfig(config);
 if (result.success) {
@@ -320,7 +320,7 @@ if (result.success) {
 Validates and throws on error.
 
 ```typescript
-import { validateAgentConfigStrict } from '@ai-agent/schema';
+import { validateAgentConfigStrict } from '@ai-agent-schema/schema';
 
 try {
   const validConfig = validateAgentConfigStrict(config);
@@ -342,7 +342,7 @@ Validates a workflow configuration with multiple connected agents.
 Detects if a workflow has circular dependencies.
 
 ```typescript
-import { detectWorkflowCycles } from '@ai-agent/schema';
+import { detectWorkflowCycles } from '@ai-agent-schema/schema';
 
 const hasCycles = detectWorkflowCycles(workflow);
 if (hasCycles) {
@@ -355,7 +355,7 @@ if (hasCycles) {
 Gets the execution order of nodes in a workflow.
 
 ```typescript
-import { getWorkflowTopologicalOrder } from '@ai-agent/schema';
+import { getWorkflowTopologicalOrder } from '@ai-agent-schema/schema';
 
 const order = getWorkflowTopologicalOrder(workflow);
 if (order) {
@@ -407,7 +407,7 @@ MIT © Shaun Ganley
 
 - [Documentation](https://github.com/shaunganley/ai-agent-schema)
 - [Issue Tracker](https://github.com/shaunganley/ai-agent-schema/issues)
-- [NPM Package](https://www.npmjs.com/package/@ai-agent/schema)
+- [NPM Package](https://www.npmjs.com/package/@ai-agent-schema/schema)
 
 ---
 
