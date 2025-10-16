@@ -56,6 +56,9 @@
     "url": "https://github.com/shaunganley/ai-agent-schema/issues"
   },
   "homepage": "https://github.com/shaunganley/ai-agent-schema#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@types/node": "^20.10.0",
     "@typescript-eslint/eslint-plugin": "^6.13.0",
