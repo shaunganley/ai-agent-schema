@@ -1,0 +1,13 @@
+# CODEOWNERS file for ai-agent-schema
+# This file defines who is responsible for code in this repository
+# and who must approve pull requests.
+#
+# Each line is a file pattern followed by one or more owners.
+# These owners will be requested for review when someone opens a pull request.
+#
+# Order is important; the last matching pattern takes precedence.
+# For more information, see:
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global owner - all files in the repository
+* @shaunganley
