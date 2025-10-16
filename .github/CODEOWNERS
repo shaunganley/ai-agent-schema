@@ -11,31 +11,3 @@
 
 # Global owner - all files in the repository
 * @shaunganley
-
-# Core schema and types
-/src/types/ @shaunganley
-/src/schemas/ @shaunganley
-/src/validators/ @shaunganley
-
-# Framework adapters
-/src/adapters/ @shaunganley
-
-# Workflow orchestration
-/src/workflows/ @shaunganley
-
-# Tests
-/tests/ @shaunganley
-
-# Documentation
-/docs/ @shaunganley
-README.md @shaunganley
-CONTRIBUTING.md @shaunganley
-CHANGELOG.md @shaunganley
-
-# Configuration files
-package.json @shaunganley
-tsconfig.json @shaunganley
-.github/ @shaunganley
-
-# Examples
-/examples/ @shaunganley
